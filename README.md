@@ -1,4 +1,4 @@
-Neat Slug Module for Node.js
+Neat Slug for Node.js
 ======================
 
 Neat Slug is a simple Node.js module that concatenates keywords of a string with the '-' symbol. There are zero dependencies to this package, so it's very lightweight and quick to install and test.
@@ -25,7 +25,7 @@ slug = neatSlug("How to lose a guy in ten days");
 // Slug = 'lose-guy-ten-days'
 ````
 
-neatSlug can also handle more complex strings, as in the example below:
+Neat Slug can also handle more complex strings, as in the example below:
 
 ````javascript
 var titleString = "123 1 2 3 @This., -34/ 1234 #! 90182.2312 $ % ^" +

@@ -1,21 +1,22 @@
 {
-  "name": "slugger",
+  "name": "neat-slug",
   "version": "0.0.1",
-  "description": "Given some text, returns a neat slug by removing stopwords",
+  "description": "Given some text, returns a neat slug by concatenating keywords (removing stopwords)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/graemeboy/node-slugger"
+    "url": "https://github.com/graemeboy/neat-slug"
   },
   "keywords": [
-    "twitter",
-    "hashtag",
-    "keyword"
+    "slug",
+    "url",
+    "stopwords",
+    "keywords"
   ],
   "author": "Graeme Boy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/graemeboy/node-slugger/issues"
+    "url": "https://github.com/graemeboy/neat-slug/issues"
   },
-  "homepage": "https://github.com/graemeboy/node-slugger"
+  "homepage": "https://github.com/graemeboy/neat-slug"
 }

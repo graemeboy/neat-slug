@@ -1,0 +1,21 @@
+{
+  "name": "twitter-hashtag-finder",
+  "version": "0.0.1",
+  "description": "Finds optimal hashtags for Twitter from some text input",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graemeboy/twitter-hashtag-finder"
+  },
+  "keywords": [
+    "twitter",
+    "hashtag",
+    "keyword"
+  ],
+  "author": "Graeme Boy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graemeboy/twitter-hashtag-finder/issues"
+  },
+  "homepage": "https://github.com/graemeboy/twitter-hashtag-finder"
+}

@@ -29,8 +29,6 @@ function filterText(str) {
 	return pruneWords(words);
 }
 
-exports.filterText = filterText;
-
 function pruneWords (words) {
 	// Loop through the words to prune digits
 	for (var i = 0; i < words.length; i++) {
@@ -69,3 +67,6 @@ function isDigit(str) {
 	// Return true if the entire string is a number (number are fine within strings.)
     return (findDigit && findDigit.length === str.length);
 }
+
+// For testing:
+exports.filterText = filterText;

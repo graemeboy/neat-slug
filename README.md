@@ -33,3 +33,7 @@ var titleString = "123 1 2 3 @This., -34/ 1234 #! 90182.2312 $ % ^" +
 
 var slug = slugger(titleString);
 console.log(slug); // -> green-smoothies-kale
+````
+
+### Credits
+* Stopwords are from http://jmlr.org/papers/volume5/lewis04a/a11-smart-stop-list/english.stop

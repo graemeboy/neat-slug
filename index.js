@@ -4,23 +4,11 @@
  */
 var stopWords = require('./lib/stopwords');
 
-//console.log(stopwords);
 /**
  * An array of words that could be Twitter hashtags
  * String []
  */
  var words;
-
-//  /**
-//   * A flag for use in an upcoming loop through the words array.
-//   * Boolean
-//   */
-//  var prune;
-
-// /**
-//  * A variable for storing the lowercase version of a word.
-//  */
-//  var lowerWord;
 
 /**
  * Takes in a string, removes all filter words, numbers,
@@ -37,10 +25,8 @@ function filterText(str) {
 
 	// Remove punctuation from input string, and split it into words.
  	words = removePunctuation(str).split(/\s/);
- 	// Prune digits and stopwords
-	words = pruneWords(words);
-	
-	return words;
+ 	// Prune digits and stopwords, return result.
+	return pruneWords(words);
 }
 
 exports.filterText = filterText;

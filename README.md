@@ -24,3 +24,12 @@ console.log(slug); // -> 'wonderful-world'
 slug = slugger("How to lose a guy in ten days");
 // Slug = 'lose-guy-ten-days'
 ````
+
+Slugger can also handle more complex strings, as in the example below:
+
+````javascript
+var titleString = "123 1 2 3 @This., -34/ 1234 #! 90182.2312 $ % ^" +
+	" & 1* green ;123: {} 123 a = 123123-_ smoothies with `~)() kale";
+
+var slug = slugger(titleString);
+console.log(slug); // -> green-smoothies-kale

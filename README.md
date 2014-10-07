@@ -6,14 +6,12 @@ Neat Slug is a simple Node.js module that concatenates keywords of a string with
 ### Install Neat Slug using npm
 
 ````javascript
-
 npm install neat-slug
 ````
 
 To use Neat Slug, simply require it, and pass it your title text:
 
 ````javascript
-
 var neatSlug = require('neat-slug');
 
 // Make "Oh What a Wonderful World" a slug:

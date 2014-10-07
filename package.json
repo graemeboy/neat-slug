@@ -1,11 +1,11 @@
 {
-  "name": "twitter-hashtag-finder",
+  "name": "slugger",
   "version": "0.0.1",
-  "description": "Finds optimal hashtags for Twitter from some text input",
+  "description": "Given some text, returns a neat slug by removing stopwords",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/graemeboy/twitter-hashtag-finder"
+    "url": "https://github.com/graemeboy/node-slugger"
   },
   "keywords": [
     "twitter",
@@ -15,10 +15,7 @@
   "author": "Graeme Boy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/graemeboy/twitter-hashtag-finder/issues"
+    "url": "https://github.com/graemeboy/node-slugger/issues"
   },
-  "dependencies": {
-    "twitter": "0.2.x"
-  },
-  "homepage": "https://github.com/graemeboy/twitter-hashtag-finder"
+  "homepage": "https://github.com/graemeboy/node-slugger"
 }

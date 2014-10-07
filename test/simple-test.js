@@ -1,14 +1,19 @@
-var hashtags = require('../index.js');
+/**
+ * Sample tests
+ * No unit tests, but just some output to look at.
+ */
 
-console.log("Running first test");
+// Require the slugger
+var slugger = require('../index.js');
 
-// Simple punctuation
-//console.log(hashtags.filterText("Hello world!"));
+// Simple example
+console.log(slugger("Oh what a wonderful world!"));
+// Returns "wonderful-world"
 
-// Simple punctuation and number
-//console.log(hashtags.filterText("123, 1, 1231243, ,324234 @!! 1E3Hello world!"));
+// More realistic example
+console.log(slugger("How to lose a guy in ten days"));
+// Returns "lose-guy-ten-days"
 
-// Punctuation test:
-console.log(hashtags.textFilter("This., -/ is #! an $ % ^ & * example ;: {} of a = -_ string with `~)() punctuation"));
-// Numbers test
-console.log(hashtags.textFilter("123 1 2 3 @This., -34/ i124s #! 1231a324n $ % ^ & 1* exa2123mple ;123: {} of123 a = 123123-_ string with `~)() punctuation"));
+// Complex test
+console.log(slugger("123 1 2 3 @This., -34/ i124s #! 1231a324n $ % ^ & 1* exa2123mple ;123: {} of123 a = 123123-_ string with `~)() punctuation"));
+// Returns "i124s-1231a324n-exa2123mple-of123-string-punctuation"

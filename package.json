@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/graemeboy/twitter-hashtag-finder/issues"
   },
+  "dependencies": {
+    "twitter": "0.2.x"
+  },
   "homepage": "https://github.com/graemeboy/twitter-hashtag-finder"
 }

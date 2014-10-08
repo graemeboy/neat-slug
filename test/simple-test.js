@@ -19,4 +19,9 @@ console.log(neatSlug("123 1 2 3 @This., -34/ 1234 #! 90182.2312 $ % ^ & 1* green
 
 // Complex test
 console.log(neatSlug("123 1 2 3 @This., -34/ i124s #! 1231a324n $ % ^ & 1* exa2123mple ;123: {} of123 a = 123123-_ string with `~)() punctuation"));
+
+// Umlaut test
+console.log(neatSlug("these are umlauts: ÄËÏÖÜäëïöü"));
+// Returns: umlauts-AEIOUaeiouss
+
 // Returns "i124s-1231a324n-exa2123mple-of123-string-punctuation"

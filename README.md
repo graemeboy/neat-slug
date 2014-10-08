@@ -33,5 +33,10 @@ var slug = neatSlug(titleString);
 console.log(slug); // -> green-smoothies-kale
 ````
 
+Neat slug also handle Greek and other non-Anglican characters:
+````javascript
+console.log(neatSlug("these are umlauts: ÄËÏÖÜäëïöü")); // -> umlauts-AEIOUaeiouss
+````
+
 ### Credits
 * Stopwords are from http://jmlr.org/papers/volume5/lewis04a/a11-smart-stop-list/english.stop

@@ -24,4 +24,7 @@ console.log(neatSlug("123 1 2 3 @This., -34/ i124s #! 1231a324n $ % ^ & 1* exa21
 console.log(neatSlug("these are umlauts: ÄËÏÖÜäëïöü"));
 // Returns: umlauts-AEIOUaeiouss
 
+// All stopwords test
+console.log(neatSlug("the a him"));
+
 // Returns "i124s-1231a324n-exa2123mple-of123-string-punctuation"

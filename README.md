@@ -41,6 +41,7 @@ console.log(neatSlug("these are umlauts: ÄËÏÖÜäëïöü")); // -> umlauts-
 If all of the words in the string are stopwords, Neat Slug will still return a valid slug:
 ````javascript
 console.log(neatSlug("the a him")); // -> the-a-him
+````
 
 ### Credits
 * Stopwords are from http://jmlr.org/papers/volume5/lewis04a/a11-smart-stop-list/english.stop
